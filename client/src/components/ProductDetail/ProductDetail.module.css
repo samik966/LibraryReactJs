@@ -1,0 +1,59 @@
+.heading {
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+.heading h4 {
+  text-transform: capitalize;
+  font-family: Niconne, cursive;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.heading * {
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.bookContainer {
+  margin: 10px auto;
+  width: 180px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px #ccc;
+}
+.bookContainer img {
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
+}
+
+.seperator {
+  border: 0;
+  height: 0;
+  margin: 20px auto;
+  width: 90%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.desc {
+  width: 90%;
+  margin: 0 auto;
+}
+.desc h4 {
+  text-align: left;
+  font-family: 'Josefin sans', sans-serif;
+  margin: 10px 0;
+}
+.desc h6 {
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.desc p {
+  text-align: justify;
+  font-weight: lighter;
+}

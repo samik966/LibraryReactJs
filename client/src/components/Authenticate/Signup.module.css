@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+.Signup {
+  height: 100vh;
+  /*  background: linear-gradient(rgba(87, 181, 182, 0.9 ), rgba(87, 181, 182,0.9)) , url('../../assets/bg.jpeg') center center;  */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(87, 181, 182, 0.9)),
+    url('../../assets/bg.jpeg') center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.Signup button {
+  border: none;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Josefin sans', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.Signup .LogoContainer {
+  width: 100px;
+  flex: 1;
+}
+.Signup .LogoContainer img {
+  width: inherit;
+}
+.Signup form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 3;
+  width: 80%;
+}
+
+.Signup form button {
+  width: 80%;
+  background-color: #0086ad;
+  transition: 0.5s;
+  margin: 20px 0;
+}
+.Signup form button:hover,
+.Signup form button:active,
+.Signup form button:focus {
+  background-color: #005582;
+}
+.Signup form h3 {
+  font-family: 'Josefin sans', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.Signup .loginContainer {
+  flex: 2;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Signup .loginContainer a {
+  width: 80%;
+}
+.Signup .loginContainer a button {
+  background-color: #4ec796;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.Signup .loginContainer a button:hover,
+.Signup .loginContainer a button:active,
+.Signup .loginContainer a button:focus {
+  background-color: #4bb38d;
+}
+
+.Signup .loginContainer a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 18px;
+  font-weight: bold;
+}

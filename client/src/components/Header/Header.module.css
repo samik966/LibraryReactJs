@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  background-color: #57b5b6;
+  color: #fff;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 2px 2px 20px #57b5b6;
+}
+
+.Header div {
+  flex: 1;
+  height: 100%;
+}
+a,
+a:active,
+a:hover,
+a:focus {
+  color: #fff;
+}
+
+.appLogo {
+  display: flex;
+  justify-content: flex-start;
+}
+.appLogo img {
+  width: 80px;
+}
+.appTitle h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.appUser {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.appUser a i {
+  font-size: 32px;
+}

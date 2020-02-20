@@ -1,0 +1,33 @@
+.FormGroup {
+  padding: 10px 0;
+  width: 90%;
+  position: relative;
+}
+label {
+  position: absolute;
+  font-size: 16px;
+  transform: translate(10px, 14px);
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+.InputEl {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  position: relative;
+  text-indent: 10px;
+}
+.InputEl:focus {
+  border-bottom: 2px solid #4ec796;
+}
+label.active {
+  transform: translateY(-12px);
+  font-size: 10px;
+  opacity: 0.8;
+  color: #4ec796;
+}

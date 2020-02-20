@@ -1,0 +1,30 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "Node Demo Rest API using Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \" npm run server \" \" npm run client \""
+  },
+  "keywords": [
+    "Rest",
+    "api"
+  ],
+  "author": "Sami Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2"
+  }
+}
